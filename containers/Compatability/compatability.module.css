@@ -1,0 +1,28 @@
+.title{
+    text-align: center;
+}
+
+.compatabilityContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.topicContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 40px 0px 0px 0px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: groove grey;
+}
+.infoChild {
+    flex: 1;
+}
+
+#compatabilityTopics {
+    margin-top: 40px
+}

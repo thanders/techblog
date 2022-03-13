@@ -1,0 +1,10 @@
+{
+    "tutorial1": {
+        "title": "Add remote and sync",
+        "productName": "Git",
+        "manufacturer": "Git",
+        "reviewDate": "March 2022",
+        "route": "/tutorials/1",
+        "type": "tutorial"
+    }
+}

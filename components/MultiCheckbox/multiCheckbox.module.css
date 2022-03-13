@@ -1,0 +1,42 @@
+
+  /* Change the link color to #111 (black) on hover */
+  /*
+
+  */
+
+  .columnContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-right: 80px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    
+  }
+
+  .rowContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    width: fit-content;
+  }
+  .navLI{
+    float: left;
+  }
+  .navUL {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .navMenu a {
+    color: white;
+  }
+
+  .inputStyle {
+    margin-top: 10px;
+    cursor: pointer;
+  }

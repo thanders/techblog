@@ -1,0 +1,25 @@
+
+  /* Change the link color to #111 (black) on hover */
+  /*
+
+  */
+
+  .navMenu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+  }
+  .navLI{
+    float: left;
+  }
+  .navUL {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .navMenu a {
+    color: white;
+  }

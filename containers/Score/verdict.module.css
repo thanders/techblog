@@ -1,0 +1,74 @@
+.title{
+    text-align: center;
+}
+
+.compatabilityContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.topicContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 40px 0px 0px 0px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: none;
+}
+.infoChild {
+    flex: 1;
+}
+
+#compatabilityTopics {
+    margin-top: 40px
+}
+
+.verdictUL{
+    display: inline-block !important;
+    color: white;
+    background-color: none;
+    list-style-type: square;
+    pointer-events: none;
+    overflow-x : unset !important;
+}
+.verdictLI {
+    display: list-item;
+    overflow-x : unset !important;
+    margin: 10px;
+}
+.scoreContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.scoreRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 10px;
+}
+
+.scoreRowConclusion{
+    display: flex;
+    direction: row;
+    justify-content: space-evenly;
+}
+
+.scoreResult {
+    width: 50px;
+    text-align: left;
+}
+.scoreTitle {
+    width: 100px;
+    text-align: left;
+    margin-right: 80px;
+}
+

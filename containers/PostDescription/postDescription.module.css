@@ -1,0 +1,13 @@
+.title{
+    text-align: center;
+}
+.postDescContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+.postDescChild {
+    flex: 1;
+}

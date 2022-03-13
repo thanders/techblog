@@ -1,0 +1,13 @@
+.footerContainer {
+    position: relative;
+    bottom: 0;
+    width: 70%;
+    margin: 200px 0px 20px 0px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.linkContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

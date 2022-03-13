@@ -1,0 +1,13 @@
+.title{
+    text-align: center;
+}
+.infoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+.infoChild {
+    flex: 1;
+}

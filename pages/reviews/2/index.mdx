@@ -1,0 +1,109 @@
+import PageContainer from '../../../components/PageContainer/PageContainer';
+import Card from '../../../components/Card/Card';
+import ProductInfo from '../../../containers/ProductInfo/ProductInfo';
+import PostDescription from '../../../containers/PostDescription/PostDescription';
+import Compatability from '../../../containers/Compatability/Compatability';
+import checkmark from '../../../public/checkmark.svg';
+import Image from 'next/image';
+import Verdict from '../../../containers/Verdict/Verdict';
+import SideBar from '../../../components/SideBar/SideBar';
+import Score from '../../../containers/Score/Score';
+import RowContainer from '../../../components/RowContainer/RowContainer';
+import CodeBlock from '../../../components/CodeBlock/CodeBlock';
+import ImageGallery from '../../../components/ImageGallery/ImageGallery';
+
+export const postDesc = {
+  reviewDescription: 'A review description. This is an initial description.',
+  reviewDate: 'September 2021',
+  reviewScore: '2/5'
+}
+
+export const productInfoProps = {
+    productTitle: 'Dell XPS 13 Developer Edition - 9310',
+    manufacturer: 'Dell',
+    cost: '$1,000 USD',
+    releaseDate: 'February 2021',
+    manufacturerURL: 'https://dell.com',
+    productTitleURL: 'https://dell.com'
+};
+
+export const checkMark = <Image src="/checkmark.svg" alt="Checkmark" width={25} height={20} />;
+export const imageOne = <Image src="/keyboard_overhead.svg" alt="keyboard_overhead" width={200} height={100} />;
+
+export const productImages = [
+  '/reviews/review1/keyboard_use.png',
+  '/reviews/review1/keyboard_overhead.png',
+  '/reviews/review1/keyboard_inputs.jpg',
+];
+
+export const imageWidth = 600;
+export const imageHeight = 400;
+
+export const compatabilityProps = {
+  osList: [
+    { Linux: checkMark },
+    { MacOS: checkMark },
+    { Windows: checkMark },
+  ],
+  sofwareList: [
+    { name: 'Keyboard Configurator', moreInfo:'https://system76.com/accessories/launch/download', distribution: ['PopOS Store', 'AppArmor', ] },
+  ],
+}
+
+export const verdictProps = {
+  good: ['Open-source hardware and software', 'Included USB 3.2 type-C dock', 'Can easily replace key caps and switches', 'Multi-OS support (including Linux)'],
+  bad: ['Key switches are not standard size'],
+  score: [{ scoreName: 'Build quality', scoreValue: 5 }, { scoreName: 'Value', scoreValue: 4 }, { scoreName: 'Support', scoreValue: 5}],
+}
+
+export default ({ children }) => <PageContainer> {children} </PageContainer>;
+
+export const code='const getEvents = (eevnt) => hello(event);'
+
+## XPS 13 (9310) - Product review
+
+<PostDescription {...postDesc} />
+<br/>
+<br/>
+
+<div id='bodyContainer'>
+
+dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut. dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
+<SideBar style={{ float: 'right', height: '100%' }}>
+  <Card>
+    <ProductInfo {...productInfoProps}/>
+  </Card>
+  <Card>
+    <Compatability {...compatabilityProps} />
+  </Card>
+</SideBar>
+
+dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
+
+dolor sit amet, consectetur adipiscing elit.  Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut. dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
+<Card style={{ float: 'left' }}>
+  <ImageGallery imagePaths={productImages} width={imageWidth} height={imageHeight} float='left' />
+</Card>
+
+dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut. dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
+ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut. dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
+
+ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut. dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
+
+ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut. dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
+
+ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut. dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
+
+ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut. dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
+
+ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut. dolor sit amet, consectetur adipiscing elit. Quisque maximus pellentesque dolor non egestas. In sed tristique elit. Cras vehicula, nisl vel ultricies gravida, augue nibh laoreet arcu, et tincidunt augue dui non elit. Vestibulum semper posuere magna, quis molestie mauris faucibus ut.
+
+<RowContainer style={{ float: 'none' }}>
+<Card style={{ width: 'fit-content' }}><Verdict {...verdictProps} /></Card>
+<Card style={{ width: 'fit-content' }}><Score {...verdictProps} /></Card>
+</RowContainer>
+
+<CodeBlock language='javascript|html' value={code} />
+</div>
+
+

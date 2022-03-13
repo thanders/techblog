@@ -1,0 +1,18 @@
+{
+    "review1": {
+        "title": "The Launch Configurable Keyboard",
+        "productName": "The Launch Configurable Keyboard",
+        "manufacturer": "System76",
+        "reviewDate": "August 2021",
+        "route": "/reviews/1",
+        "type": "review"
+    },
+    "review2": {
+        "title": "XPS 13 (9310)",
+        "productName": "The Launch Configurable Keyboard",
+        "manufacturer": "Dell",
+        "reviewDate": "September 2021",
+        "route": "/reviews/2",
+        "type": "review"
+    }
+}
